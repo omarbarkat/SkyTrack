@@ -94,6 +94,7 @@
 		1890E60F2C77A523005832A3 /* Sky Track */ = {
 			isa = PBXGroup;
 			children = (
+				18A4963A2C77A59500802826 /* NetworkService */,
 				1890E6102C77A523005832A3 /* Sky_TrackApp.swift */,
 				1890E6122C77A523005832A3 /* ContentView.swift */,
 				1890E6142C77A524005832A3 /* Assets.xcassets */,
@@ -125,6 +126,13 @@
 				1890E62D2C77A524005832A3 /* Sky_TrackUITestsLaunchTests.swift */,
 			);
 			path = "Sky TrackUITests";
+			sourceTree = "<group>";
+		};
+		18A4963A2C77A59500802826 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
