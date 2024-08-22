@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1890E6112C77A523005832A3 /* Sky_TrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6102C77A523005832A3 /* Sky_TrackApp.swift */; };
+		1890E6132C77A523005832A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6122C77A523005832A3 /* ContentView.swift */; };
+		1890E6152C77A524005832A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1890E6142C77A524005832A3 /* Assets.xcassets */; };
+		1890E6182C77A524005832A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1890E6172C77A524005832A3 /* Preview Assets.xcassets */; };
+		1890E6222C77A524005832A3 /* Sky_TrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890E6212C77A524005832A3 /* Sky_TrackTests.swift */; };
+		1890E62C2C77A524005832A3 /* Sky_TrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890E62B2C77A524005832A3 /* Sky_TrackUITests.swift */; };
+		1890E62E2C77A524005832A3 /* Sky_TrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1890E62D2C77A524005832A3 /* Sky_TrackUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1890E61E2C77A524005832A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1890E6052C77A523005832A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1890E60C2C77A523005832A3;
+			remoteInfo = "Sky Track";
+		};
+		1890E6282C77A524005832A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1890E6052C77A523005832A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1890E60C2C77A523005832A3;
+			remoteInfo = "Sky Track";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1890E60D2C77A523005832A3 /* Sky Track.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sky Track.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890E6102C77A523005832A3 /* Sky_TrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky_TrackApp.swift; sourceTree = "<group>"; };
+		1890E6122C77A523005832A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1890E6142C77A524005832A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1890E6172C77A524005832A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1890E61D2C77A524005832A3 /* Sky TrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sky TrackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890E6212C77A524005832A3 /* Sky_TrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky_TrackTests.swift; sourceTree = "<group>"; };
+		1890E6272C77A524005832A3 /* Sky TrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sky TrackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1890E62B2C77A524005832A3 /* Sky_TrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky_TrackUITests.swift; sourceTree = "<group>"; };
+		1890E62D2C77A524005832A3 /* Sky_TrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sky_TrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1890E60A2C77A523005832A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890E61A2C77A524005832A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890E6242C77A524005832A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1890E6042C77A523005832A3 = {
+			isa = PBXGroup;
+			children = (
+				1890E60F2C77A523005832A3 /* Sky Track */,
+				1890E6202C77A524005832A3 /* Sky TrackTests */,
+				1890E62A2C77A524005832A3 /* Sky TrackUITests */,
+				1890E60E2C77A523005832A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1890E60E2C77A523005832A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1890E60D2C77A523005832A3 /* Sky Track.app */,
+				1890E61D2C77A524005832A3 /* Sky TrackTests.xctest */,
+				1890E6272C77A524005832A3 /* Sky TrackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1890E60F2C77A523005832A3 /* Sky Track */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6102C77A523005832A3 /* Sky_TrackApp.swift */,
+				1890E6122C77A523005832A3 /* ContentView.swift */,
+				1890E6142C77A524005832A3 /* Assets.xcassets */,
+				1890E6162C77A524005832A3 /* Preview Content */,
+			);
+			path = "Sky Track";
+			sourceTree = "<group>";
+		};
+		1890E6162C77A524005832A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6172C77A524005832A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1890E6202C77A524005832A3 /* Sky TrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				1890E6212C77A524005832A3 /* Sky_TrackTests.swift */,
+			);
+			path = "Sky TrackTests";
+			sourceTree = "<group>";
+		};
+		1890E62A2C77A524005832A3 /* Sky TrackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1890E62B2C77A524005832A3 /* Sky_TrackUITests.swift */,
+				1890E62D2C77A524005832A3 /* Sky_TrackUITestsLaunchTests.swift */,
+			);
+			path = "Sky TrackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1890E60C2C77A523005832A3 /* Sky Track */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1890E6312C77A524005832A3 /* Build configuration list for PBXNativeTarget "Sky Track" */;
+			buildPhases = (
+				1890E6092C77A523005832A3 /* Sources */,
+				1890E60A2C77A523005832A3 /* Frameworks */,
+				1890E60B2C77A523005832A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sky Track";
+			productName = "Sky Track";
+			productReference = 1890E60D2C77A523005832A3 /* Sky Track.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1890E61C2C77A524005832A3 /* Sky TrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1890E6342C77A524005832A3 /* Build configuration list for PBXNativeTarget "Sky TrackTests" */;
+			buildPhases = (
+				1890E6192C77A524005832A3 /* Sources */,
+				1890E61A2C77A524005832A3 /* Frameworks */,
+				1890E61B2C77A524005832A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1890E61F2C77A524005832A3 /* PBXTargetDependency */,
+			);
+			name = "Sky TrackTests";
+			productName = "Sky TrackTests";
+			productReference = 1890E61D2C77A524005832A3 /* Sky TrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1890E6262C77A524005832A3 /* Sky TrackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1890E6372C77A524005832A3 /* Build configuration list for PBXNativeTarget "Sky TrackUITests" */;
+			buildPhases = (
+				1890E6232C77A524005832A3 /* Sources */,
+				1890E6242C77A524005832A3 /* Frameworks */,
+				1890E6252C77A524005832A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1890E6292C77A524005832A3 /* PBXTargetDependency */,
+			);
+			name = "Sky TrackUITests";
+			productName = "Sky TrackUITests";
+			productReference = 1890E6272C77A524005832A3 /* Sky TrackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1890E6052C77A523005832A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1890E60C2C77A523005832A3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1890E61C2C77A524005832A3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1890E60C2C77A523005832A3;
+					};
+					1890E6262C77A524005832A3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1890E60C2C77A523005832A3;
+					};
+				};
+			};
+			buildConfigurationList = 1890E6082C77A523005832A3 /* Build configuration list for PBXProject "Sky Track" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1890E6042C77A523005832A3;
+			productRefGroup = 1890E60E2C77A523005832A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1890E60C2C77A523005832A3 /* Sky Track */,
+				1890E61C2C77A524005832A3 /* Sky TrackTests */,
+				1890E6262C77A524005832A3 /* Sky TrackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1890E60B2C77A523005832A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890E6182C77A524005832A3 /* Preview Assets.xcassets in Resources */,
+				1890E6152C77A524005832A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890E61B2C77A524005832A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890E6252C77A524005832A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1890E6092C77A523005832A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890E6132C77A523005832A3 /* ContentView.swift in Sources */,
+				1890E6112C77A523005832A3 /* Sky_TrackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890E6192C77A524005832A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890E6222C77A524005832A3 /* Sky_TrackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1890E6232C77A524005832A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1890E62E2C77A524005832A3 /* Sky_TrackUITestsLaunchTests.swift in Sources */,
+				1890E62C2C77A524005832A3 /* Sky_TrackUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1890E61F2C77A524005832A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1890E60C2C77A523005832A3 /* Sky Track */;
+			targetProxy = 1890E61E2C77A524005832A3 /* PBXContainerItemProxy */;
+		};
+		1890E6292C77A524005832A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1890E60C2C77A523005832A3 /* Sky Track */;
+			targetProxy = 1890E6282C77A524005832A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1890E62F2C77A524005832A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1890E6302C77A524005832A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1890E6322C77A524005832A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sky Track/Preview Content\"";
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Sky-Track";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1890E6332C77A524005832A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sky Track/Preview Content\"";
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Sky-Track";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1890E6352C77A524005832A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Sky-TrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sky Track.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sky Track";
+			};
+			name = Debug;
+		};
+		1890E6362C77A524005832A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Sky-TrackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sky Track.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sky Track";
+			};
+			name = Release;
+		};
+		1890E6382C77A524005832A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Sky-TrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sky Track";
+			};
+			name = Debug;
+		};
+		1890E6392C77A524005832A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CZAAVN9JAQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mr.ios.Sky-TrackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sky Track";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1890E6082C77A523005832A3 /* Build configuration list for PBXProject "Sky Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890E62F2C77A524005832A3 /* Debug */,
+				1890E6302C77A524005832A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1890E6312C77A524005832A3 /* Build configuration list for PBXNativeTarget "Sky Track" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890E6322C77A524005832A3 /* Debug */,
+				1890E6332C77A524005832A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1890E6342C77A524005832A3 /* Build configuration list for PBXNativeTarget "Sky TrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890E6352C77A524005832A3 /* Debug */,
+				1890E6362C77A524005832A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1890E6372C77A524005832A3 /* Build configuration list for PBXNativeTarget "Sky TrackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1890E6382C77A524005832A3 /* Debug */,
+				1890E6392C77A524005832A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1890E6052C77A523005832A3 /* Project object */;
+}
