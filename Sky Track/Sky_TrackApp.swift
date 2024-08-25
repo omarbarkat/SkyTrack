@@ -15,7 +15,6 @@ struct Sky_TrackApp: App {
                 WeatherView()
 
             }
-//            ContentView()
         }
     }
 }

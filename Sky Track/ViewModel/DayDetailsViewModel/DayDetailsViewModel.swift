@@ -13,11 +13,11 @@ class DayDetailsViewModel: ObservableObject {
     
     func convertToTimeOnly(dateString: String) -> String {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm" // Format of the input string
-        dateFormatter.timeZone = TimeZone.current // Set the timezone if needed
-        
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm" 
+
+        dateFormatter.timeZone = TimeZone.current
         if let date = dateFormatter.date(from: dateString) {
-            dateFormatter.dateFormat = "HH:mm" // Desired output format
+            dateFormatter.dateFormat = "HH:mm" 
             let timeOnlyString = dateFormatter.string(from: date)
             return timeOnlyString
         } else {

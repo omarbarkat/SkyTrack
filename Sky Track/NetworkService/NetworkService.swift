@@ -12,8 +12,7 @@ class NetworkService {
         guard let url = createURL() else { return }
         let request = URLRequest(url: url)
         let session = URLSession(configuration: .default)
-        
-        let task = session.dataTask(with: request) { data, _, _ in
+                let task = session.dataTask(with: request) { data, _, _ in
             guard let data else { return }
             self.parseData(data: data, handler: handler)
         }
