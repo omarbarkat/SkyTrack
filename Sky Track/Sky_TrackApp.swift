@@ -11,7 +11,10 @@ import SwiftUI
 struct Sky_TrackApp: App {
     var body: some Scene {
         WindowGroup {
-            WeatherView()
+            NavigationView {
+                WeatherView()
+
+            }
 //            ContentView()
         }
     }

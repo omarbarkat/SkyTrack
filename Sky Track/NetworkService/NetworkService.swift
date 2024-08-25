@@ -7,43 +7,80 @@
 
 import Foundation
 
-enum NetworkError: Error {
-    case invalidURL
-    case requestFailed
-    case decodingFailed
-}
-
 class NetworkService {
-    static let shared = NetworkService()
-    
-    private init() {}
-    func fetchData<T: Decodable>(from urlString: String, as responseType: T.Type, completion: @escaping (Result<T, NetworkError>) -> Void) {
+    func getData(handler: @escaping ((Weather) -> Void)) {
+        guard let url = createURL() else { return }
+        let request = URLRequest(url: url)
+        let session = URLSession(configuration: .default)
         
-        guard let url = URL(string: urlString) else {
-            completion(.failure(.invalidURL))
-            return
+        let task = session.dataTask(with: request) { data, _, _ in
+            guard let data else { return }
+            self.parseData(data: data, handler: handler)
         }
-        
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
-            print(data)
-            if let error = error {
-                print("Request failed with error: \(error.localizedDescription)")
-                completion(.failure(.requestFailed))
-                return
-            }
-            
-            guard let data = data else {
-                completion(.failure(.requestFailed))
-                return
-            }
-            
-           let res =  DecodingService.shared.decode(T.self, from: data, completion: completion)
-            print(data)
-        }
-        
         task.resume()
     }
+    private func createURL() -> URL? {
+        let longitude = 31.233334
+        let latitude = 30.033333
+        let apiKey = "50fbce3826fe4397b75130655242408"
+        let url = "https://api.weatherapi.com/v1/forecast.json?key=\(apiKey)&q=\(longitude),\(latitude)&days=3&aqi=yes&alerts=no"
+        return URL(string: url)
+    }
+    private func parseData(data: Data, handler: @escaping ((Weather) -> Void)) {
+        do {
+            let decodedData = try JSONDecoder().decode(Weather.self, from: data)
+            handler(decodedData)
+            print(decodedData)
+        } catch {
+            print(error.localizedDescription)
+        }
+    }
 }
+
+
+
+
+
+
+
+
+//enum NetworkError: Error {
+//    case invalidURL
+//    case requestFailed
+//    case decodingFailed
+//}
+//
+//class NetworkService {
+//    static let shared = NetworkService()
+//    
+//    private init() {}
+//    func fetchData<T: Decodable>(from urlString: String, as responseType: T.Type, completion: @escaping (Result<T, NetworkError>) -> Void) {
+//        
+//        guard let url = URL(string: urlString) else {
+//            completion(.failure(.invalidURL))
+//            return
+//        }
+//        
+//        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+//            print(data)
+//            if let error = error {
+//                print("Request failed with error: \(error.localizedDescription)")
+//                completion(.failure(.requestFailed))
+//                return
+//            }
+//            
+//            guard let data = data else {
+//                completion(.failure(.requestFailed))
+//                return
+//            }
+//            
+//           let res =  DecodingService.shared.decode(T.self, from: data, completion: completion)
+//            print(data)
+//        }
+//        
+//        task.resume()
+//    }
+//}
 
 
 
